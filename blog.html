@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <h1>You are almost there <br> just fill in everything correctly and confirm by clicking order!!!</h1>
+    <center>
+    <form action="https://formsubmit.co/husseinfauziyya@gmail.com" method="POST">
+        <!-- <input type="text" name="address" placeholder="Address" required> -->
+        <select name="dm" id="dm" onchange="handleDm()"> 
+            <option value="" selected>Select value</option>
+            <option value="delivery">Delivery</option>
+            <option value="pickup">Pickup</option>
+        </select>
+        <input type="text" id="address" name="Delivery Method" placeholder="address" hidden>
+        <input type="time" id="time" hidden>
+        <input type="email" required placeholder="Email">
+        <button type="submit">ORDER</button>
+    </form>
+    </center>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
