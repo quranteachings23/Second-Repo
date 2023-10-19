@@ -42,8 +42,21 @@ img{
   width: 50%;
   
 }
-img:hover{
-  background-color: pink;
+section {
+  display: flex;
+  width : 90%;
+  margin: 0 auto;
+}
+section img:hover{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 2s ease;
+
+}
+img{
+  box-shadow: 10px 8px 10px 10px rgba(255, 192, 203, 0.664);
 }
 
 h1{
@@ -51,11 +64,4 @@ h1{
   color: palevioletred;
 }
 
-footer{
-  background-color:palevioletred;
-  height: 100px;
-  justify-content: space-between;
-  
-
-}
 
